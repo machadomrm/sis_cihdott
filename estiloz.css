@@ -1,0 +1,83 @@
+/*
+* @author Carlos Felipe
+*/
+
+form {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f0f2f3;
+}
+
+hr {
+    background-color: #cad5d5;
+}
+
+input[type="text"] {
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border: 1px solid black;
+}
+
+input[type="date"] {
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border: 1px solid black;
+}
+
+input[type="time"] {
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border: 1px solid black;
+}
+
+input[type="number"] {
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border: 1px solid black;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+input[type="password"] {
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border: 1px solid black;
+}
+
+.fa-user {
+    color: white;
+    size: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    border: 1px solid #c2c1c1;
+    background-color: #c2c1c1;    
+    border-radius: 5px;
+    padding: 10px;
+    width: 550px;
+    text-align: center;
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+}
+
+
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ffa500;
+}
+
+.centralizada {
+    display: block;
+    margin: 0 auto;
+    margin-left: 280px; /* Mantém o deslocamento da margem esquerda */
+}
+

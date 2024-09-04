@@ -1,0 +1,64 @@
+.form-control {
+    -moz-appearance: textfield; /* Remove as setas no Firefox */
+}
+/* Remove setas no Chrome, Safari, Edge, Opera */
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+body {
+	background-color: #f0f2f3;
+}
+hr {
+	background-color: #CAD5D5;
+}
+input[type=text]{   
+    border-radius:4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border:1px solid black;
+}
+input[type=date]{   
+    border-radius:4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border:1px solid black;
+}
+input[type=time]{   
+    border-radius:4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border:1px solid black;
+}
+input[type=number]{   
+    border-radius:4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border:1px solid black;
+}
+ 
+textarea{
+    border: 1px solid black;
+    border-radius:4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+
+input[type=password]{   
+    border-radius:4px;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border:1px solid black;
+}
+
+h3{
+
+font-size: 18px;
+font-family: verdana;
+border: 1px solid #C2C1C1;
+background-color: #C2C1C1;
+border-radius: 5px;
+padding: 10px;
+}
+

@@ -1,0 +1,62 @@
+* {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;
+    font-family: 'Baloo Chettan 2', cursive;}
+
+.logo {width: 90%; height: 20%; position: relative; top: 0; left: 0;}
+
+body { background-color: rgb(52, 10, 241); }
+
+nav.vertical{
+  position:relative;
+  width:100%;
+}
+
+nav.vertical ul{
+  list-style: none;
+  position: relative;
+}
+
+nav.vertical li{
+  position:relative;
+  
+}
+
+nav.vertical a{
+  display:block;
+  color:#eee;
+  text-decoration:none;
+  padding:15px 15px;
+  background:rgb(15, 23, 138);
+  transition:0.2s;
+  border-top: 0.5px solid rgb(55, 53, 148);
+  border-bottom: 0.5px solid rgb(55, 53, 148);
+}
+
+nav.vertical li:hover > a{
+  background:rgb(5, 5, 105);
+}
+
+nav.vertical ul ul li a{
+  background:rgb(173, 36, 36);
+  border-top: 0.5px solid rgb(172, 28, 28);
+  border-bottom: 0.5px solid rgb(172, 28, 28);
+
+}
+
+nav.vertical ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+
+nav.vertical li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+  
+}
